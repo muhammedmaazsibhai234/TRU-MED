@@ -72,11 +72,6 @@ If routing supervision is enabled, tissue or anatomical masks should be prepared
 python main.py --batch-size 90 --model tru_med --data-path path/data --output_dir path/output --log_dir path/output```
 
 
-### Evaluation
-```bash
-python main.py --eval --model tru_med --resume /path/to/checkpoint.pth --data-path path/data```
-
----
 
 ## Example Configuration Options
 
