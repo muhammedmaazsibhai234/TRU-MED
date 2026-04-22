@@ -27,37 +27,6 @@ To address these limitations, this repository extends MedFormer with a new frame
 
 ---
 
-## Key Contributions
-
-- **Uncertainty-aware extension of MedFormer**  
-  Adds an evidential uncertainty estimation head at the token level to explicitly quantify predictive uncertainty inside the backbone.
-
-- **Uncertainty-guided routing and refinement**  
-  Uses token-level and global uncertainty as active control signals to regulate where and how feature refinement is applied.
-
-- **Prototype-based classification head**  
-  Supports structured and interpretable classification by matching spatial features to learned class-specific prototypes.
-
-- **Trustworthy feature propagation**  
-  Suppresses unstable refinement in uncertain regions and falls back to baseline DSSA representations when reliability is low.
-
-
-
-## Architecture Summary
-
-The proposed model extends MedFormer in two main ways:
-
-1. **Reliability-aware feature learning**
-   - Token-level evidential uncertainty estimation
-   - Uncertainty-guided routing and refinement
-   - Global uncertainty-controlled refinement scaling
-
-2. **Structured decision making**
-   - Optional prototype-based classification head
-   - Similarity-based evidence aggregation
-   - Auxiliary cluster and diversity losses
-
-Importantly, the method **does not modify the core DSSA mechanism** of the original MedFormer backbone.
 
 
 ### Environment
