@@ -8,12 +8,12 @@ This repository builds on the original MedFormer backbone and introduces:
 - **Prototype-based representation learning for interpretable classification**
 
 The goal of this work is to improve the **trustworthiness, interpretability, and robustness** of medical image classification without modifying the core DSSA mechanism of the original MedFormer backbone.
-## Dual Sparse Selection Attention:
+## TRU-MED Architecture:
 <p align="center">
 <img src="figs/medunfr.png" width="80%">
 </p>
 
-## MedFormer Architecture:
+## Prototype Head:
 <p align="center">
 <img src="figs/proto.png" width="80%">
 </p>
